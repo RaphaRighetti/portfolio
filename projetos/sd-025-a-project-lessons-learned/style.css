@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    background: url(grid.png), linear-gradient(rgba(11, 179, 139, 0.65), rgba(8, 112, 88, 0.65)), url(bgheader.png), url(image.jpg);
+      top: 0;
+    position: fixed;
+      color: white;
+      font-weight: 900;
+      width: 100%;
+      height: 110px;
+      display: flex;
+      align-items: center;
+      font-family: Oswald, sans-serif;
+      text-transform: uppercase;
+      font-style: italic; 
+    }
+
+    .imgheader {
+        width: 100px;
+    margin-left: 30px;
+    }
+
+    .imgheader:hover {
+        width: 104px;
+  transition: 0.25s;
+    }
+
+    #titulo {
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%, 0%);
+    }
+
+   main {
+    margin-top: 150px;
+    font-family: Montserrat, sans-serif;
+    font-size:medium;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: rgb(53, 53, 53);
+   }
+    
+   .secimg {
+    display: flex;
+    justify-content: center;
+   }
+   
+   .divimg {
+    display: flex;
+    justify-content: center; 
+  
+   }
+   
+   #minha_foto {
+      width: 63%;
+      border-radius: 1000px;
+    }
+
+    .lista {
+      margin-top: 20px;
+    }
+
+    .lista div {
+      display: flex;
+      justify-content: center;
+    }
+
+    .titulolista {
+      font-weight: 700;
+      font-size: larger;
+      margin-bottom: 0px;
+    }
+
+
+    .titulolista2 {
+      font-weight: 700;
+      font-size: larger;
+      margin: 0px;
+    }
+
+    #licoes_a_aprender {
+      color: rgb(3, 107, 82);
+    }
+
+    #licoes_a_aprender span {
+      color: rgb(53, 53, 53);
+    }
+
+    #rodape {
+      font-family: Montserrat, sans-serif;
+      font-size: small;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      font-weight: 500;
+      color: rgb(53, 53, 53);
+    }
+
+    #navtrybe {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    #linktrybe, #linktrybe:visited{
+      color: blue;
+      text-decoration: none;
+    }
+
+    #linktrybe:hover {
+      color: rgb(4, 187, 141);
+    }
+
+    .secdupla {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    #lado_esquerdo {
+      margin-right: 2%;
+    }
+
+    #lado_direito {
+      margin-left: 2%;
+    }
+
+    .secdupla h2 {
+      text-align: center;
+    }
