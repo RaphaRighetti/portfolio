@@ -7,6 +7,10 @@ body {
     background: url(images/grid.png), linear-gradient(to right, #4b0082, #ff1493); 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .bebasnenue {
     font-family: 'Bebas Neue', cursive;
 }
@@ -24,9 +28,9 @@ a {
     background-color: whitesmoke;
     padding-bottom: 3em;
     display: flex; 
- flex-direction: row; 
-justify-content: center;
-align-items: center;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
 }
 
 a:visited {
