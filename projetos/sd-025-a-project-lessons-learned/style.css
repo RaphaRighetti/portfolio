@@ -1,132 +1,173 @@
 body {
-    margin: 0px;
-    background-color: rgb(253, 251, 251);
+  margin: 0;
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background: url(grid.png), linear-gradient(rgba(11, 179, 139, 0.65), rgba(8, 112, 88, 0.65)), url(bgheader.png), url(image.jpg);
-      top: 0;
-    position: fixed;
-      color: white;
-      font-weight: 900;
-      width: 100%;
-      height: 110px;
-      display: flex;
-      align-items: center;
-      font-family: Oswald, sans-serif;
-      text-transform: uppercase;
-      font-style: italic; 
-    }
+  background: url('grid.png'), linear-gradient(rgba(11, 179, 139, 0.65), rgba(8, 112, 88, 0.65)), url('bgheader.png'), url('image.jpg');
+  top: 0;
+  position: fixed;
+  color: white;
+  font-weight: 900;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
 
-    .imgheader {
-        width: 100px;
-    margin-left: 30px;
-    }
+.imgheader {
+  width: 100px;
+  margin-left: 30px;
+}
 
-    .imgheader:hover {
-        width: 104px;
+.imgheader:hover {
+  width: 104px;
   transition: 0.25s;
-    }
+}
 
-    #titulo {
-     position: absolute;
-     left: 50%;
-     transform: translate(-50%, 0%);
-    }
+#titulo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
 
-   main {
-    margin-top: 150px;
-    font-family: Montserrat, sans-serif;
-    font-size:medium;
-    font-weight: 500;
-    line-height: 1.3em;
-    color: rgb(53, 53, 53);
-   }
-    
-   .secimg {
-    display: flex;
-    justify-content: center;
-   }
-   
-   .divimg {
-    display: flex;
-    justify-content: center; 
-  
-   }
-   
-   #minha_foto {
-      width: 63%;
-      border-radius: 1000px;
-    }
+main {
+  margin-top: 150px;
+  font-family: Montserrat, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  line-height: 1.3em;
+  color: rgb(53, 53, 53);
+}
 
-    .lista {
-      margin-top: 20px;
-    }
+.secimg {
+  display: flex;
+  justify-content: center;
+}
 
-    .lista div {
-      display: flex;
-      justify-content: center;
-    }
+.divimg {
+  display: flex;
+  justify-content: center;
+}
 
-    .titulolista {
-      font-weight: 700;
-      font-size: larger;
-      margin-bottom: 0px;
-    }
+#minha_foto {
+  width: 63%;
+  border-radius: 1000px;
+}
 
+.lista {
+  margin-top: 20px;
+}
 
-    .titulolista2 {
-      font-weight: 700;
-      font-size: larger;
-      margin: 0px;
-    }
+.lista div {
+  display: flex;
+  justify-content: center;
+}
 
-    #licoes_a_aprender {
-      color: rgb(3, 107, 82);
-    }
+.titulolista {
+  font-weight: 700;
+  font-size: larger;
+  margin-bottom: 0;
+}
 
-    #licoes_a_aprender span {
-      color: rgb(53, 53, 53);
-    }
+.titulolista2 {
+  font-weight: 700;
+  font-size: larger;
+  margin-top: 20px;
+}
 
-    #rodape {
-      font-family: Montserrat, sans-serif;
-      font-size: small;
-      text-align: center;
-      margin-top: 100px;
-      margin-bottom: 20px;
-      font-weight: 500;
-      color: rgb(53, 53, 53);
-    }
+#licoes_a_aprender {
+  color: rgb(3, 107, 82);
+}
 
-    #navtrybe {
-      margin-top: 50px;
-      text-align: center;
-    }
+#licoes_a_aprender span {
+  color: rgb(53, 53, 53);
+}
 
-    #linktrybe, #linktrybe:visited{
-      color: blue;
-      text-decoration: none;
-    }
+#rodape {
+  font-family: Montserrat, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: rgb(53, 53, 53);
+}
 
-    #linktrybe:hover {
-      color: rgb(4, 187, 141);
-    }
+#navtrybe {
+  margin-top: 50px;
+  text-align: center;
+}
 
-    .secdupla {
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
-    }
+#linktrybe , #linktrybe:visited {
+  color: blue;
+  text-decoration: none;
+}
 
-    #lado_esquerdo {
-      margin-right: 2%;
-    }
+#linktrybe:hover {
+  color: rgb(4, 187, 141);
+}
 
-    #lado_direito {
-      margin-left: 2%;
-    }
+.secdupla {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
 
-    .secdupla h2 {
-      text-align: center;
-    }
+.secdupla div {
+  vertical-align: top;
+  padding: 2%;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lado-direito {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.secdupla h2 {
+  margin-bottom: 30px;
+}
+
+.sectabela {
+  margin-top: 50px;
+}
+
+.sectabela div {
+  display: flex;
+  justify-content: center;
+}
+
+.tabela {
+  font-size: small;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+
+.tabela thead tr th {
+  padding-bottom: 10px;
+}
+
+.tabela tbody tr td {
+  font-size: small;
+  text-align: left;
+}
+
+.tabela tbody tr .check {
+  width: 17px;
+  text-align: center;
+}
