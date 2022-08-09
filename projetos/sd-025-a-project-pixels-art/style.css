@@ -22,7 +22,7 @@ main {
   height: 110px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   font-style: italic;
@@ -31,7 +31,7 @@ main {
 #divImgHeader {
   width: 107px;
   min-width: 107px;
-  margin-left: 10px;
+  margin-left: clamp(10px, 5px + 2vw, 30px);
 }
 
 .imgheader {
@@ -45,7 +45,7 @@ main {
 
 #headerSpace {
   width: 107px;
-  margin-right: 10px;
+  margin-right: clamp(10px, 5px + 2vw, 30px);
 }
 
 #titulo {
