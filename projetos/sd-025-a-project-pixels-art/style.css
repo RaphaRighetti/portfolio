@@ -22,25 +22,39 @@ main {
   height: 110px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   font-style: italic;
 }
 
+#divImgHeader {
+  width: 107px;
+  min-width: 107px;
+  margin-left: 10px;
+}
+
 .imgheader {
-  width: 100px;
-  margin-left: 30px;
+  width: clamp(50px, 70px + 3vw, 100px);
 }
 
 .imgheader:hover {
-  width: 104px;
+  width: clamp(50px, 74px + 3vw, 104px);
   transition: 0.25s;
 }
 
+#headerSpace {
+  width: 107px;
+  margin-right: 10px;
+}
+
 #titulo {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0%);
+  width: fit-content;
+  font-size: clamp(20px, 20px + 1vw, 30px); 
+}
+
+#tituloDiv {
+  width: fit-content;
 }
 
 #title {
